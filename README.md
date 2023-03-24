@@ -1,2 +1,2 @@
-docker-compose -f locust.yml up --scala master=1 --scala worker=1 --scala nginx=1
-docker-compose -f locust.yml down -v
+docker-compose -f performance-testing-locust.yml up --scale master=1 --scale worker=1 --scale nginx=1
+docker-compose -f performance-testing-locust.yml down -v
